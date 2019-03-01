@@ -1,108 +1,106 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head><style>
-
-div.mayor-div
-{ 
-	border:1px solid #90a34c;
-	padding:10px;
-}
-
- #where
- {
-	color:black;
-	font-weight:bold;
-	text-align:center;
-	Border: 2px solid blue;
-	padding: 10px;
-	margin: 2px;
-}
-
-#vene 
-{
-	font-weight: bold;
-	text-align:center;
-	Background-color:red;
-	Border: 2px solid powerblue;
-	padding: 60px;
-	width:200
-}
-
-#shield-vene 
-{
-	font-weight: bold;
-	text-align:center;
-	Background-color:red;
-	Border: 2px solid powerblue;
-	padding: 60px;
-	width:200
-}
+<head>
+	<title>Hello world</title>	
+	<style>
+		.center 
+		{
+			margin: auto;
+			display: flex;
+			justify-content: space-around;
+		}
 
 
-.shield-non-vene 
-{
-	font-weight: bold;
-	text-align:center;
-	Background-color:red;
-	Border: 2px solid powerblue;
-	padding: 60px;
-	width:200
-}
+		#where
+		{
+		color:black;
+		font-weight:bold;
+		text-align:center;
+		padding: 10px;
+		margin: 2px;
+		}
 
-p.non-vene 
-{
+		#vene 
+		{
+			font-weight: bold;
+			text-align:center;
+			Background-color:red;
+			Border: 2px solid powerblue;
+			padding: 60px;
+			width:200
+		}
 
-	font-weight:bold ;
-	text-align:center;
-	Background-color:blue;
-	Border: 2px solid powerblue;
-	padding: 60px;
+		#shield-vene 
+		{
+			font-weight: bold;
+			text-align:center;
+			Background-color:red;
+			Border: 2px solid powerblue;
+			padding: 60px;
+			width:200
+		}
 
-}
 
-</style></head>
+		.shield-non-vene 
+		{
+			font-weight: bold;
+			text-align:center;
+			Background-color:red;
+			Border: 2px solid powerblue;
+			padding: 60px;
+			width:200
+		}
+
+		p.non-vene 
+		{
+
+			font-weight:bold ;
+			text-align:center;
+			Background-color:blue;
+			Border: 2px solid powerblue;
+			padding: 60px;
+
+		}
+
+		</style>.
+	</head>
 
 <body style="background-color:powderblue">
 
 
-<h1 Style="text-align:center"> MARQUEZ LAW FIRM PLLC</h1>
-<hr>
-
-<div Style="background:black;text-weight:bold;color:white">
-<p style="text-align:center;">
- We offer immagration services</p></div>
+<h1 Style="text-align:center"> Hello world</h1>
 
 <div class="mayor-div">
 
 <p id="where">Where are you from?</p>
 
+<div class="center">
+	<!--Argentina-->
+	<a href="https://en.wikipedia.org/wiki/Argentina" target="_blank"><button class="shield-non-vene"><img alt="Argentina's coat of arm" src="https://upload.wikimedia.org
+	/wikipedia/commons/thumb/f/ff
+	/Coat_of_arms_of_Argentina.svg/744px-Coat_of_arms_of_Argentina.svg.png" style="widows: 100px;height:100px;" 
+	><p style="text-align: center">Argentina</button></a>
 
-<!--Argentina-->
-<a href="https://en.wikipedia.org/wiki/Argentina" target="_blank"><button class="shield-non-vene"><img alt="Argentina's coat of arm" src="https://upload.wikimedia.org
-/wikipedia/commons/thumb/f/ff
-/Coat_of_arms_of_Argentina.svg/744px-Coat_of_arms_of_Argentina.svg.png" style="widows: 100px;height:100px;" 
-><p style="text-align: center">Argentina</button></a>
+	<!--VENE-->	
+	<a  href="https://en.wikipedia.org/wiki/Venezuela
+	" target="_blank"><button id="shield-vene">
+	<img alt="Venezuela's coat of arm" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Escudo_de_Armas_de_Venezuela_2006.png
+	/250px-Escudo_de_Armas_de_Venezuela_2006.png" style="widows: 100px;height:100px;">
+	<p style="text-align:center">VENEZUELA</button></a>
 
-<!--VENE-->	
-<a  href="https://en.wikipedia.org/wiki/Venezuela
-" target="_blank"><button id="shield-vene">
-<img alt="Venezuela's coat of arm" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Escudo_de_Armas_de_Venezuela_2006.png
-/250px-Escudo_de_Armas_de_Venezuela_2006.png" style="widows: 100px;height:100px;">
-<p style="text-align:center">VENEZUELA</button></a>
+	<!--PERU-->
+	<a href="https://en.wikipedia.org/wiki/Peru" target="_blank"><button class="shield-non-vene"><img alt="Peru's coat of arms" src="https://upload.wikimedia.org/
+	wikipedia/commons/thumb/c/cc/Escudo_nacional_
+	del_Per%C3%BA.svg/250px-Escudo_nacional_del_Per%C3%BA.svg.png" style="width: 100px; height: 100px;"><p>
+	Peru</button></a>
 
-<!--PERU-->
-<a href="https://en.wikipedia.org/wiki/Peru" target="_blank"><button class="shield-non-vene"><img alt="Peru's coat of arms" src="https://upload.wikimedia.org/
-wikipedia/commons/thumb/c/cc/Escudo_nacional_
-del_Per%C3%BA.svg/250px-Escudo_nacional_del_Per%C3%BA.svg.png" style="width: 100px; height: 100px;"><p>
-Peru</button></a>
-
-<!--CHILE-->
-<a href="https://es.wikipedia.org/wiki/Chile" target="_blank"><button class="shield-non-vene"><img alt="chile's coat of arm" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/
-Coat_of_arms_of_Chile.svg/543px-Coat_of_arms_of_Chile.svg.png"  
-style="width: 100px;height: 100px;" alt="Chile's coat of arms"><p>Chile</button></a>
+	<!--CHILE-->
+	<a href="https://es.wikipedia.org/wiki/Chile" target="_blank"><button class="shield-non-vene"><img alt="chile's coat of arm" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/
+	Coat_of_arms_of_Chile.svg/543px-Coat_of_arms_of_Chile.svg.png"  
+	style="width: 100px;height: 100px;" alt="Chile's coat of arms"><p>Chile</button></a>
+	</div>
+	<!--Remember to improve this webpage-->
 </div>
-<!--Remember to improve this webpage-->
-
 
 <br><br>	<hr>	<br><br>
 <div class="mayor-div">
@@ -111,11 +109,11 @@ style="width: 100px;height: 100px;" alt="Chile's coat of arms"><p>Chile</button>
 /Flag_of_Argentina.svg/255px-Flag_of_Argentina.svg.png" 
 style="float:right;heigh:50px;width:50px">Argentina</p>
 
-<p id="vene"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Flag_of_Venezuela_%28state%29.svg/800px-Flag_of_Venezuela_%28state%29.svg.png"style="float:right;heigh:50px;width:50px">Chile</p>
+<p id="vene"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Flag_of_Venezuela_%28state%29.svg/800px-Flag_of_Venezuela_%28state%29.svg.png"style="float:right;heigh:50px;width:50px">Venezuela</p>
 
 <p class="non-vene"><img src="https://upload.wikimedia.org
 /wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/255px-Flag_of_Peru.svg.png" 
-style="float:right;heigh:50px;width:50px">
+style="float:right; heigh:50px;width:50px">
 Peru</p>
 
 <p class="non-vene"><img src="https://upload.wikimedia.org
@@ -128,7 +126,5 @@ style="float:right;heigh:50px;width:50px">Chile</p>
 
 
 
-
-
-
-</body></html>
+</body>
+</html>
